@@ -179,7 +179,6 @@ p.numgames {
 
 /* Featured Section */
 .featured {
-    padding: 4vw 12vw;
     background: 
         linear-gradient(rgb(67 220 255 / 0%), rgb(0 0 0 / 61%)), 
         url(images/brick.png) center / cover no-repeat;
