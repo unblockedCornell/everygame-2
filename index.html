@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EveryGame</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel = "stylesheet" href="modal.css">
+  
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+</head>
+<body>
+  <div class="ads-space"></div> <!-- Space for Google ads -->
+  <div class="content-wrapper">
+    <nav class="navbar">
+      <img src="images/logo.png" alt="logo">
+      <h1><a class="mainlink" href="index.html">EveryGame</a></h1>
+      <ul class="menu">
+        <li class="dropdown">
+          <a href="#">Strategy</a>
+          <ul class="dropdown-content">
+            <li><a href="category.html?category=Idle">Idle</a></li>
+            <li><a href="category.html?category=Tower_Defense">Tower Defense</a></li>
+            <li><a href="category.html?category=Business">Business</a></li>
+            <li><a href="category.html?category=Endless_Puzzle">Endless Puzzle</a></li>
+            <li><a href="category.html?category=Match_3">Match 3</a></li>
+            <li><a href="category.html?category=Construction">Construction</a></li>
+            <li><a href="category.html?category=Figure_it_out">Figure It Out</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Skill</a>
+          <ul class="dropdown-content">
+            <li><a href="category.html?category=Aiming">Aiming</a></li>
+            <li><a href="category.html?category=Platformer">Platformer</a></li>
+            <li><a href="category.html?category=Timing">Timing</a></li>
+            <li><a href="category.html?category=Hard_Control">Hard Control</a></li>
+            <li><a href="category.html?category=Adventure">Adventure</a></li>
+            <li><a href="category.html?category=Endless_Runner">Endless Runner</a></li>
+            <li><a href="category.html?category=One_Button">One Button</a></li>
+            <li><a href="category.html?category=Rotating">Rotating</a></li>
+            <li><a href="category.html?category=Stacking">Stacking</a></li>
+            <li><a href="category.html?category=Time_Management">Time Management</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Numbers</a>
+          <ul class="dropdown-content">
+            <li><a href="category.html?category=addition">Addition/Subtraction</a></li>
+            <li><a href="category.html?category=applied_math">Applied Math</a></li>
+            <li><a href="category.html?category=multiplication">Multiplication / Division</a></li>
+            <li><a href="category.html?category=othermath">Other Math</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Logic</a>
+          <ul class="dropdown-content">
+            <li><a href="category.html?category=block_removal">Block Removal</a></li>
+            <li><a href="category.html?category=Building">Building</a></li>
+            <li><a href="category.html?category=Drawing">Drawing</a></li>
+            <li><a href="category.html?category=Escape">Escape</a></li>
+            <li><a href="category.html?category=helping">Helping</a></li>
+            <li><a href="category.html?category=physics_puzzle">Physics Puzzle</a></li>
+            <li><a href="category.html?category=platforming_puzzle">Platforming puzzle</a></li>
+            <li><a href="category.html?category=Sliding">Sliding</a></li>
+            <li><a href="category.html?category=think_outside_the_box">Think Outside the box</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Classic</a>
+            <ul class="dropdown-content">
+              <li><a href="category.html?category=board_games">Board Games</a></li>
+              <li><a href="category.html?category=card_games">Card Games</a></li>
+              <li><a href="category.html?category=retro">Retro</a></li>
+              <li><a href="category.html?category=solitaire">Solitaire</a></li>
+              <li><a href="category.html?category=8-bit">8-bit</a></li>
+              <li><a href="category.html?category=mahjong">Mahjong</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Trivia</a>
+          <ul class="dropdown-content">
+            <li><a href="category.html?category=art">Arts & Entertainment</a></li>
+            <li><a href="category.html?category=health">Health</a></li>
+            <li><a href="category.html?category=Home">Home</a></li>
+            <li><a href="category.html?category=fun">Fun stuff</a></li>
+            <li><a href="category.html?category=history">History</a></li>
+            <li><a href="category.html?category=places">Places</a></li>
+            <li><a href="category.html?category=Science">Science</a></li>
+            <li><a href="category.html?category=Sports">Sports</a></li>
+            <li><a href="category.html?category=style">Style</a></li>
+          </ul>
+        </li>
+      </ul> 
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="hero-left">
+          <h1>Every. Online. Game.</h1>
+          <p>playable, accessible, here.</p>
+          <p class="numgames">Currently holding 0 games!</p>
+          <div class="search">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="suggestions" id="suggestions"></div>
+        </div>
+        <div class="hero-right">
+          <h1>Popular Games</h1>
+          <div class="popular-games">
+            <!-- Wrap each card in an anchor tag to make it clickable -->
+            <a href="game.html?id=bob-the-robber-2">
+              <div class="card" data-players="120K players">
+                <img src="images/bob-the-robber-2.png" alt="Bob The Robber 2">
+                <h3>Bob The Robber 2</h3>
+              </div>
+            </a>
+            <a href="game.html?id=vex7">
+              <div class="card" data-players="200K players">
+                <img src="images/vex7.jpeg" alt="Vex 7">
+                <h3>Vex 7</h3>
+              </div>
+            </a>
+            <a href="game.html?id=drive-mad">
+              <div class="card" data-players="300K players">
+                <img src="images/drive-mad.jpg" alt="Drive Mad">
+                <h3>Drive Mad</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Featured Section -->
+    <div class="featured">
+      <h1>All Games</h1>
+      <div id="games">
+      </div>
+    </div>
+  </div>
+  <script src="utils.js"></script>
+  <script src="script.js"></script>
+  <script src="fillAllGames.js"></script>
+  <script src="loginpage.js"></script>
+  <dialog class = "modal" id = "modal">
+    <div class = modal-div>It's up to you, but signing up will unlock personalized features, save your progress, and keep you updated on new games. If you already have an account, just sign in!</div>
+   
+    <button class = "signup-button"
+    onclick="window.location.href = 'http://localhost/simple/login.html'">Sign up!</button>
+    <button class = "login-button"
+    onclick="window.location.href = 'http://localhost/simple/signup.html'">Login!</button> 
+    <button class = "button close-button">close</button>
+  </dialog>
+</body>
+</html>

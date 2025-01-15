@@ -1,0 +1,408 @@
+body {
+    background-color: #1b1b1b;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px) saturate(200%) brightness(70%);
+    color: #fff;
+    display: flex;
+    height: 7vw;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    padding: 0 1%;
+    z-index: 5;
+}
+
+nav img {
+    height: 80%;
+    margin-right: 1%;
+    border-radius: 1vw;
+}
+
+nav h1 {
+    position: relative;
+    font-size: 4vw;
+    font-weight: 800;
+    margin-bottom: auto;
+    margin-top: 0;
+    transition: transform 0.2s;
+}
+
+.navbar h1:hover {
+    transform: scale(1.05);
+}
+
+a.mainlink {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the text color from the parent element */
+    cursor: pointer; /* Ensure the pointer (hand) cursor appears on hover */
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(rgb(67 220 255), rgb(0 0 0 / 0%)), url(images/hero-bg.gif) center / cover no-repeat;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+}
+
+.hero-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.hero-left {
+    min-width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 51px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.hero-left p {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 2vw;
+    margin-top: 0px;
+}
+
+.hero-left .search {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1vw;
+    max-width: 50%; /* Ensure the search bar does not stretch beyond its container */
+}
+
+.search input {
+    background-color: #222;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 30px;
+    flex: 1; /* Allow the input to take up remaining space */
+    max-width: 300px;
+}
+
+.search button {
+    background-color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.suggestions {
+    width: 30vw;
+    margin-top: 1vw;
+}
+
+
+
+.suggestion-card img {
+    height: 3vw;
+    border-radius: 0.5vw;
+    margin-right: 1vw;
+}
+
+.suggestion-card p {
+    color: #fff;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+.hero-right {
+    max-width: 45%;
+    min-width: 460px;
+}
+
+.hero-right h1 {
+    font-size: 51px;
+    font-weight: 800;
+    margin-bottom: 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p.numgames {
+    font-size: 18px;
+}
+
+
+.popular-games {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.popular-games a {
+    display: flex;
+    align-items: center;
+    border-radius: 1vw;
+    padding: 1vw;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.popular-games a:hover {
+    transform: scale(1.05);
+}
+
+.popular-games img {
+    height: 5vw;
+    border-radius: 0.5vw;
+    margin-right: 1vw;
+}
+
+.popular-games p {
+    color: #fff;
+    font-size: 1.8vw;
+    margin: 0;
+}
+
+/* Featured Section */
+.featured {
+    padding: 4vw 12vw;
+    background: 
+        linear-gradient(rgb(67 220 255 / 0%), rgb(0 0 0 / 61%)), 
+        url(images/brick.png) center / cover no-repeat;
+    background-position: top center; /* Align the top of brick.png */
+    background-size: cover; /* Ensure it covers the section */
+}
+
+.featured h1 {
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+    color: #fff;
+}
+
+.featured img {
+    height: 12.5vw;
+    border-radius: 1vw;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.featured img:hover {
+    transform: scale(1.02);
+    filter: brightness(0.8);
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, z-index 0.3s;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 1.2rem;
+    z-index: 2;
+  }
+  
+  .card::after {
+    content: attr(data-players);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+  .card:hover {
+    transform: scale(1.1);
+    z-index: 10;
+  }
+  
+  .card:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+
+/* Align popular cards horizontally */
+.popular-games {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw; /* Add some spacing between the cards */
+    justify-content: space-evenly; /* Center and distribute the cards evenly */
+}
+
+/* Smaller card style for suggestions */
+.suggestions {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 1vw;
+    max-height: 300px; /* Set a max height */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    margin-top: 1vw;
+}
+
+.suggestion-card {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, z-index 0.3s;
+    background-color: #222;
+}
+
+.suggestion-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.suggestion-card p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 0.9rem;
+    z-index: 2;
+}
+
+.suggestion-card::after {
+    content: attr(data-players);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.suggestion-card:hover {
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.suggestion-card:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Add a custom scrollbar for suggestions */
+.suggestions::-webkit-scrollbar {
+    width: 8px;
+}
+
+.suggestions::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+
+#games {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 35px;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding-left: 0;
+  }
+  
+  .menu > li {
+    position: relative;
+    transition: transform 0.2s;
+    }
+
+  .menu > li:hover {
+    transform: scale(1.1);
+   }
+  
+  .menu > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #004d40;
+    min-width: 150px;
+    z-index: 1001;
+    list-style: none;
+    padding-left: 0;
+
+
+    overflow: hidden;
+    transition: all .5s ease;
+    max-height: 0;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    color: #C7F464;
+    border: solid #C7F464;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    max-height: 500px;
+  }

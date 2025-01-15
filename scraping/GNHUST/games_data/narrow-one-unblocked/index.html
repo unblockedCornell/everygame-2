@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Narrow One Unblocked</title>
+        <style>
+            body {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #000;
+            }
+            iframe {
+                border: none;
+            }
+            #btn_fullscreen {
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                background-color: #fff;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                z-index: 1000;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="btn_fullscreen">Full Screen</div>
+        <iframe src="https://gnhustgames.github.io/narrow-one/" 
+                id="gameCanvas" 
+                style="width: 90%; height: 90%;"></iframe>
+        <script>
+            // Full-Screen Functionality
+            const btnFullscreen = document.getElementById('btn_fullscreen');
+            const gameCanvas = document.getElementById('gameCanvas');
+
+            btnFullscreen.addEventListener('click', () => {
+                if (gameCanvas.requestFullscreen) {
+                    gameCanvas.requestFullscreen();
+                } else if (gameCanvas.webkitRequestFullscreen) { // Safari
+                    gameCanvas.webkitRequestFullscreen();
+                } else if (gameCanvas.msRequestFullscreen) { // IE11
+                    gameCanvas.msRequestFullscreen();
+                }
+            });
+        </script>
+    </body>
+    </html>

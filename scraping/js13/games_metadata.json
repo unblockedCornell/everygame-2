@@ -1,0 +1,17 @@
+[
+    {
+        "id": "right",
+        "title": "right",
+        "category": "Skill",
+        "subcategory": "Aiming",
+        "instructions": "No instructions available",
+        "path": "scraper/js13./games_data/right",
+        "imgpath": "https://js13kgames.comNo image available",
+        "data_players": "120k",
+        "related": [
+            "vex7",
+            "drive-mad",
+            "moto-x3m"
+        ]
+    }
+]

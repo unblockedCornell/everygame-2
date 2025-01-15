@@ -1,0 +1,389 @@
+[
+    {
+        "id": "bob-the-robber-2",
+        "title": "Bob the Robber 2",
+        "category": "Logic",
+        "subcategory": "Escape",
+        "instructions": "Use arrow keys to move, space to interact, and avoid security cameras and guards.",
+        "path": "games/bob-the-robber-2/",
+        "imgpath": "images/bob-the-robber-2.png",
+        "data_players": "120K players",
+        "related": ["vex7", "drive-mad", "moto-x3m"]
+    },
+    {
+        "id": "vex7",
+        "title": "Vex 7",
+        "category": "Skill",
+        "subcategory": "Platformer",
+        "instructions": "Use arrow keys or WASD to run, jump, and climb. Avoid obstacles and traps to complete levels.",
+        "path": "games/vex7/",
+        "imgpath": "images/vex7.jpeg",
+        "data_players": "200K players",
+        "related": ["bob-the-robber-2", "slope", "vex6"]
+    },
+    {
+        "id": "drive-mad",
+        "title": "Drive Mad",
+        "category": "Skill",
+        "subcategory": "Hard_Control",
+        "instructions": "Use arrow keys or WASD to control your vehicle. Overcome obstacles without flipping the car.",
+        "path": "games/drive-mad/",
+        "imgpath": "images/drive-mad.jpg",
+        "data_players": "300K players",
+        "related": ["moto-x3m", "slope", "bob-the-robber-2"]
+    },
+    {
+        "id": "slope",
+        "title": "Slope",
+        "category": "Skill",
+        "subcategory": "Endless_Runner",
+        "instructions": "Use arrow keys to steer the ball. Avoid obstacles and stay on the track.",
+        "path": "games/slope/",
+        "imgpath": "images/slope.jpg",
+        "data_players": "500K players",
+        "related": ["vex7", "retro-bowl", "drive-mad"]
+    },
+    {
+        "id": "moto-x3m",
+        "title": "Moto X3M",
+        "category": "Skill",
+        "subcategory": "Timing",
+        "instructions": "Use arrow keys to accelerate, brake, and balance. Perform stunts and finish levels quickly.",
+        "path": "games/moto-x3m/",
+        "imgpath": "images/moto-x3m.jpg",
+        "data_players": "400K players",
+        "related": ["drive-mad", "retro-bowl", "bob-the-robber-2"]
+    },
+    {
+        "id": "retro-bowl",
+        "title": "Retro Bowl",
+        "category": "Classic",
+        "subcategory": "Retro",
+        "instructions": "Use mouse or touchscreen to control players, make passes, and manage your team.",
+        "path": "games/retro-bowl/",
+        "imgpath": "images/retro-bowl.jpg",
+        "data_players": "350K players",
+        "related": ["slope", "moto-x3m", "drive-mad"]
+    },
+    {
+        "id": "vex6",
+        "title": "Vex 6",
+        "category": "Skill",
+        "subcategory": "Platformer",
+        "instructions": "Use arrow keys or WASD to run, jump, and climb. Avoid traps and complete challenging levels.",
+        "path": "games/vex6/",
+        "imgpath": "images/vex6.jpeg",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+  
+    {
+      "id": "1v1lol",
+      "title": "1v1.LOL",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "Build Like in Fortnite!",
+      "path": "games/1v1lol/",
+      "imgpath": "games/1v1lol/splash.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "AlienInvasion",
+      "title": "Alien Invasion",
+      "category": "Classic",
+      "subcategory": "8-bit",
+      "instructions": "A take on the classic atari game!",
+      "path": "games/AlienInvasion/",
+      "imgpath": "images/alieninvaders.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "Asteroids",
+      "title": "Asteroids",
+      "category": "Classic",
+      "subcategory": "8-bit",
+      "instructions": "A shoot all the asteroids!",
+      "background":"white",
+      "path": "games/Asteroids/",
+      "imgpath": "images/Asteroids.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "Digger",
+      "title": "Digger",
+      "category": "Logic",
+      "subcategory": "sliding",
+      "instructions": "Use cursor keys, ESC to restart, DEL to jump to the next level.",
+      "path": "games/digger/",
+      "imgpath": "images/digger.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "Snake",
+      "title": "snake",
+      "category": "Classic",
+      "subcategory": "Retro",
+      "instructions": "Use arrow keys to navigate the snake! eat the dots!",
+      "path": "games/snake/",
+      "imgpath": "images/snake.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "Drakonas",
+      "title": "Drakonas",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "Fly and upgrade your fighter jet! Use your mouse to control, and click to attack!",
+      "path": "games/Drakonas/",
+      "imgpath": "images/Drakonas.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "Survivor",
+      "title": "Survivor",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "JavaScript prototype based on the Commodore 64 version of Survivor from 1983. Move around iwth arrow keys, and shoot with ctrl!",
+      "path": "games/survivor/",
+      "imgpath": "images/survivor.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "infinitemario",
+      "title": "Infinite Mario",
+      "category": "Skill",
+      "subcategory": "Platformer",
+      "instructions": "Mario bros! navigate with arrow keys and use s as jump!",
+      "path": "games/infinitemario/",
+      "subPath": "main.html",
+      "imgpath": "images/infinitemario.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "coil",
+      "title": "Coil",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "Coil is an addictive HTML5 game where you have to defeat your enemies by enclosing them in your trail. Most of the game is drawn on 2d canvas but if WebGL support is detected additional effects are added.",
+      "path": "games/coil/",
+      "imgpath": "images/coil.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "emberwind",
+      "title": "Emberwind",
+      "category": "Skill",
+      "subcategory": "Adventure",
+      "instructions": "Move around with the arrow keys, and attack with the spacebar!",
+      "path": "games/emberwind/",
+      "imgpath": "images/emberwind.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+    {
+      "id": "marblesoccer",
+      "title": "Marble Soccer",
+      "category": "Skill",
+      "subcategory": "Hard_Control",
+      "instructions": "Use your arrowkeys to knock other balls into their holes.",
+      "path": "games/marblesoccer/",
+      "imgpath": "images/marblesoccer.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+    {
+      "id": "polybranch",
+      "title": "Polybranch",
+      "category": "Skill",
+      "subcategory": "Endless_Runner",
+      "instructions": "PolyBranch is a minimalist 3D game. Avoid the branches protruding from the walls as you fly through the tunnel. Dodging branches may seem easy at first, but how long can you hold up as you approach terminal velocity? Dive in, stay focused, and enjoy the ride!",
+      "path": "games/polybranch/",
+      "subPath":"polybranchweb/index.html",
+      "imgpath": "images/polybranch.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "skifree",
+      "title": "Ski Free",
+      "category": "Skill",
+      "subcategory": "Endless_Runner",
+      "instructions": "JavaScript port of the popular 1991 PC game SkiFree by Chris Pirih.",
+      "path": "games/skifree/",
+      "background":"white",
+      "imgpath": "images/skifree.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "starshipsorades",
+      "title": "Starship Sorades",
+      "category": "Skill",
+      "subcategory": "Endless_Runner",
+      "instructions": "A scrolling shooter in the vein of Raptor: 'Call of the Shadows' and 'Warning Forever'. Are you able to survive 13 waves? Press X to fire, F for fullscreen, P for pause, M to switch to the original ship model from our full-featured 'Starship Sorades' game (yes, I had 3 KB left and wasted them for an easter egg). Multiple control schemes provided, e.g. cursor keys, WASD and numpad.",
+      "path": "games/starshipsorades/",
+      "imgpath": "images/starshipsorades.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "crappybird",
+      "title": "Crappy Bird",
+      "category": "Skill",
+      "subcategory": "Endless_Runner",
+      "instructions": "Its literally flappy bird.",
+      "path": "games/crappybird/",
+      "imgpath": "games/crappybird/SS1.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "diablo",
+      "title": "Diablo",
+      "category": "Skill",
+      "subcategory": "Adventure",
+      "instructions": "Big update! Extracted one original level from Diablo 2. Use [tab] to show map. New map layers - walls, floors, objects Tools for extract levels, pictures and another resources from origin Diablo 2 files",
+      "path": "games/diablo/",
+      "imgpath": "images/diablo.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+    
+    {
+      "id": "mahjong",
+      "title": "Green Mahjong",
+      "category": "Classic",
+      "subcategory": "mahjong",
+      "instructions": "Mahjong",
+      "path": "games/mahjong/",
+      "subPath":"GreenMahjong/www/index.html",
+      "imgpath": "images/mahjong.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "commandconquer",
+      "title": "Command and Conquer",
+      "category": "Strategy",
+      "subcategory": "Tower_Defense",
+      "instructions": "This is a recreation of the original Command and Conquer, Real Time Strategy game entirely in HTML5 and Javascript.",
+      "path": "games/commandconquer/",
+      "imgpath": "images/commandconquer.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+  
+    {
+      "id": "towerdefense",
+      "title": "Tower Defense",
+      "category": "Strategy",
+      "subcategory": "Tower_Defense",
+      "instructions": "This is a recreation of the original Command and Conquer, Real Time Strategy game entirely in HTML5 and Javascript.",
+      "path": "games/towerdefense/",
+      "imgpath": "images/towerdefense.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "ur_offline",
+      "title": "You Are Offline.",
+      "category": "Strategy",
+      "subcategory": "Figure_it_out",
+      "instructions": "You are trapped in a room. There is no way out. Your only hope is to contact someone to rescue you. The only problem is: YOU ARE OFFLINE.",
+      "path": "games/ur_offline/",
+      "imgpath": "images/offline.jpg",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    }, 
+
+    {
+      "id": "elematter",
+      "title": "Elematter",
+      "category": "Strategy",
+      "subcategory": "Tower_Defense",
+      "instructions": "Elematter is a tower defense game based on the four elements: Earth, Water, Air and Fire. Construct your defense and stop the enemy forces from stealing scarce elemental matter! This game was built with JavaScript for game logic and HTML/CSS for rendering.",
+      "path": "games/elematter/",
+      "imgpath": "images/elematter.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "back_country",
+      "title": "Back Country",
+      "category": "Skill",
+      "subcategory": "Adventure",
+      "instructions": "Kill or be killed in this hack-and-shoot set in the Wild West! Use the mouse or tap the screen to control your avatar, and earn as much gold as you can from the sheriff's bounties.",
+      "path": "games/back_country/",
+      "imgpath": "images/back_country.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "underrun",
+      "title": "Underrun",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "A twin stick shooter in 256 shades of brown.",
+      "path": "games/underrun/",
+      "imgpath": "images/underrun.jpg",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+
+    {
+      "id": "chroma_incident",
+      "title": "The Chroma Incident",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "The Achromats have taken the worlds color offline! Raid their colorless lair and vanquish them all, restoring the world to it's technicolor glory. A twin-stick shooter playable with gamepad or keyboard+mouse.",
+      "path": "games/chroma_incident/",
+      "imgpath": "images/chroma_incident.jpg",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "binding_isaac",
+      "title": "The Binding of Isaac",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "The Binding of Isaac is a roguelike action-adventure game developed by Edmund McMillen and Florian Himsl. The game's storyline is dark and revolves around the main character, Isaac, who is trying to escape his deeply religious mother's attempts to sacrifice him to prove her faith to God. The gameplay involves exploring randomly generated dungeons, battling enemies, and collecting various power-ups and items to progress through the game.",
+      "path": "games/binding_isaac/",
+      "imgpath": "images/binding_isaac.jpg",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    }
+
+
+
+
+    
+  ]
