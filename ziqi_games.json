@@ -1,0 +1,167 @@
+[
+    {
+        "id": "hextris",
+        "title": "Hextris",
+        "category": "Logic",
+        "subcategory": "block_removal",
+        "instructions": "literally tetris",
+        "path": "games/hextris/",
+        "imgpath": "images/hextris.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "2048",
+        "title": "2048",
+        "category": "Logic",
+        "subcategory": "block_removal",
+        "instructions": "combine the blocks until you reach 2048",
+        "path": "games/2048/",
+        "imgpath": "images/2048.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "clumsybird",
+        "title": "Clumsy Bird",
+        "category": "Skill",
+        "subcategory": "Endless_Runner",
+        "instructions": "remake of the orginal flappy birds",
+        "path": "games/clumsy-bird-master/",
+        "imgpath": "images/clumsybird.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "adarkroom",
+        "title": "A Dark Room",
+        "category": "Skill",
+        "subcategory": "Adventure",
+        "instructions": "A text based Adventure",
+        "path": "games/adarkroom/",
+        "imgpath": "images/clumsybird.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "wander",
+        "title": "Wander",
+        "category": "Skill",
+        "subcategory": "Platformer",
+        "instructions": "Explore a desolate wilderness with your grappling hook",
+        "path": "games/wander/",
+        "imgpath": "images/wander.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "triangle",
+        "title": "Triangle: Back To Home",
+        "category": "Skill",
+        "subcategory": "Platformer",
+        "instructions": "You are lost in the cave. Try to get out and back to home. Sometimes it can be easy, sometimes not… but don’t give up and you will do it",
+        "path": "games/triangle-back-to-home/",
+        "imgpath": "images/triangle.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "dwarfs",
+        "title": "Dwarfs: There And Back Again",
+        "category": "Skill",
+        "subcategory": "Adventure",
+        "instructions": "A tale of high adventure, undertaken by a company of dwarfs, in search of dragon-guarded gold, true friendship, and varieties of ale (not necessarily in that order)",
+        "path": "games/dwarfs-there-and-back-again/",
+        "imgpath": "images/dwarf.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "bounceBack",
+        "title": "Bounce Back",
+        "category": "Skill",
+        "subcategory": "Adventure",
+        "instructions": "Boomerang adventure game",
+        "path": "games/bounce-back/",
+        "imgpath": "images/bounceback.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "offline-paradise",
+        "title": "Offline Paradise",
+        "category": "Skill",
+        "subcategory": "Platformer",
+        "instructions": "The world, a paradise, has gone offline; everything has become grey and dangerous. Traverse, jump and dash over the obstacles to turn the world back into normal",
+        "path": "games/offline-paradise/",
+        "imgpath": "images/offline-paradise.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "planetfall",
+        "title": "Planetfall",
+        "category": "Skill",
+        "subcategory": "Adventure",
+        "instructions": "A space exploration game. The goal is to find satellite stations on each planet and take them offline",
+        "path": "games/planetfall/",
+        "imgpath": "images/planetfall.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "todquest",
+        "title": "Quest Of Tod",
+        "category": "Skill",
+        "subcategory": "Adventure",
+        "instructions": "A speed running adventure game, where you stuck inside unknown place controlled by strange machine. Can you find all the keys and codes to unlock the exit before the time runs out?",
+        "path": "games/quest-of-tod/",
+        "imgpath": "images/questoftod.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "racer",
+        "title": "Racer",
+        "category": "Skill",
+        "subcategory": "Endless_Runner",
+        "instructions": "Start from the back of the pack, finish 1st to go to the next race!",
+        "path": "games/racer/",
+        "imgpath": "images/racer.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "everyones-sky",
+        "title": "Everyone's Sky",
+        "category": "Skill",
+        "subcategory": "Adventure",
+        "instructions": "Make allies by completing missions, study other planets, stars, defend yourself against planetary defenses and pirate groups, or makes enemies by attacking them, ignoring their communications and destroying their facilities.",
+        "path": "games/everyones-sky/",
+        "imgpath": "images/everyones-sky.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "evilglitch",
+        "title": "Evil Glitch",
+        "category": "Skill", 
+        "subcategory": "Adventure",
+        "instructions": "Strange glitches appear in your dimension, could you stop them to assimilate your world?",
+        "path": "games/evil-glitch/",
+        "imgpath": "images/evilglitch.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "offtheline",
+        "title": "Off The Line",
+        "category": "Skill", 
+        "subcategory": "Adventure",
+        "instructions": "Strange glitches appear in your dimension, could you stop them to assimilate your world?",
+        "path": "games/off-the-line/",
+        "imgpath": "images/offtheline.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      }
+]
