@@ -33,21 +33,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Populate related games
       const relatedGamesContainer = document.getElementById("related-games");
-      game.related.forEach((relatedId) => {
-        const relatedGame = games.find((g) => g.id === relatedId);
-        if (relatedGame) {
-          const card = document.createElement("div");
-          card.className = "card";
-          card.setAttribute("data-players", relatedGame.data_players || "N/A players");
-          card.innerHTML = `
-            <a href="game.html?id=${relatedGame.id}">
-              <img src="${relatedGame.imgpath}" alt="${relatedGame.title}">
-              <h3>${relatedGame.title}</h3>
-              <p>${relatedGame.data_players || "N/A"} players</p>
-            </a>
-          `;
-          relatedGamesContainer.appendChild(card);
-        }
+
+      // Filter games from the same category and exclude the current game
+      let sameCategoryGames = games.filter((g) => g.category === game.category && g.id !== game.id);
+
+      // If not enough games in the same category, include games from any category
+      if (sameCategoryGames.length < 3) {
+        const additionalGames = games.filter((g) => g.id !== game.id);
+        const shuffledGames = additionalGames.sort(() => 0.5 - Math.random());
+        sameCategoryGames = [...sameCategoryGames, ...shuffledGames].slice(0, 3);
+      } else {
+        // Randomize the selection of games from the same category
+        sameCategoryGames = sameCategoryGames.sort(() => 0.5 - Math.random()).slice(0, 3);
+      }
+
+      // Populate the related games section
+      sameCategoryGames.forEach((relatedGame) => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.setAttribute("data-players", relatedGame.data_players || "N/A players");
+        card.innerHTML = `
+          <a href="game.html?id=${relatedGame.id}">
+            <img src="${relatedGame.imgpath}" alt="${relatedGame.title}">
+            <h3>${relatedGame.title}</h3>
+            <p>${relatedGame.data_players || "N/A"} players</p>
+          </a>
+        `;
+        relatedGamesContainer.appendChild(card);
       });
     })
     .catch((error) => {
