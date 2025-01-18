@@ -10,6 +10,7 @@
     background: linear-gradient(rgb(67 220 255), rgb(0 0 0 / 0%)), url(images/bgfull.png) center / cover no-repeat;
     color: #333;
     background-repeat: no-repeat;
+    background-color: #C64F10;
   }
   
   header {
