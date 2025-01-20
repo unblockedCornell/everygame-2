@@ -380,7 +380,134 @@
       "imgpath": "images/binding_isaac.jpg",
       "data_players": "150K players",
       "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "mittens",
+      "title": "Mittens",
+      "category": "Skill",
+      "subcategory": "Endless_Runner",
+      "instructions": "Mittens! is a Short Frogger Style game about rescuing your cat by crossing the road avoiding obstacles (monsters).",
+      "path": "games/mittens/",
+      "imgpath": "images/mittens.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+
+    {
+      "id": "fknight",
+      "title": "FKnight",
+      "category": "Classic",
+      "subcategory": "Retro",
+      "instructions": "You are a knight. Do not let the enemy pass. You must collect all the gold.",
+      "path": "games/fknight/",
+      "imgpath": "images/fknight.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "subsystemtwenty",
+      "title": "Subsystem Twenty",
+      "category": "Logic",
+      "subcategory": "Physics Puzzle",
+      "instructions": "Navigate a battery powered spaceship from a launchpad to another one. WASD keys are used to control the spaceship.",
+      "path": "games/subsystemtwenty/",
+      "imgpath": "images/subsystemtwenty.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "disconnected",
+      "title": "Disconnected",
+      "category": "Logic",
+      "subcategory": "Physics Puzzle",
+      "instructions": "Help Lucy and Levi get back online so they can send their messages to each other. You can reveal the solution to each level if completed over the minimal amount of moves but I encourage you to try and figure out the solution on your own.",
+      "path": "games/disconnected/",
+      "imgpath": "images/disconnected.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "gooffline",
+      "title": "Go Offline",
+      "category": "Logic",
+      "subcategory": "Physics Puzzle",
+      "instructions": "The title says it all: go offline to get some score. And you can beat you hi score. And there are 13 silly achievements to unlock.",
+      "path": "games/gooffline/",
+      "imgpath": "images/gooffline.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "faraday_cage_rampage",
+      "title": "Faraday Cage Rampage",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "Destroy drones with the energy you accumulate on your Tin Foil Hat, collect 10 scraps to build faraday cages around each antenna and get 'em all offline!",
+      "path": "games/faraday_cage_rampage/",
+      "imgpath": "images/faraday_cage_rampage.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "robot_coder",
+      "title": "Robot Coder",
+      "category": "Strategy",
+      "subcategory": "Simulator",
+      "instructions": "You enter the code for the robot to move and to bring items to different targets. Then you start it, and it will run without any way by you to interfere in what it’s doing. So you have to plan ahead to make sure the robot runs the way you want it to run.",
+      "path": "games/robot_coder/",
+      "imgpath": "images/robot_coder.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "offl1n3",
+      "title": "Offl1n3",
+      "category": "Skill",
+      "subcategory": "Platformer",
+      "instructions": "You're playing an MMO with your friends, when suddenly you get disconnected from the internet for the third time that day. You decide you've had enough, and go to your ISP to get revenge.",
+      "path": "games/offl1n3/",
+      "imgpath": "images/offl1n3.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "tron2",
+      "title": "Tron 2.0",
+      "category": "Skill",
+      "subcategory": "Endless_Runner",
+      "instructions": "Maintain a superior score against the clever AI drivers. Use speed and reflexes to cut them off, or trap them into areas where they eventually run out of space.",
+      "path": "games/tron2/",
+      "imgpath": "images/tron2.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "squad13",
+      "title": "Squad 13",
+      "category": "Skill",
+      "subcategory": "Adventure",
+      "instructions": "When all hope is lost, the World Police Organization sends SQUAD 13.",
+      "path": "games/squad13/",
+      "imgpath": "images/squad13.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
     }
+
+
+
+
+
+
 
 
 
