@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       // Populate game content
-      document.title = game.title;
+      document.title = "Classroom";
       document.getElementById("game-title-heading").innerText = game.title;
 
       // Construct the iframe source with subPath if available
