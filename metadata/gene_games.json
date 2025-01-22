@@ -501,6 +501,19 @@
       "imgpath": "images/squad13.png",
       "data_players": "150K players",
       "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+
+    {
+      "id": "freezeria",
+      "title": "Papas Freezeria",
+      "category": "Strategy",
+      "subcategory": "business",
+      "instructions": "Welcome to Calypso Island, where an interesting new job is waiting for you! Imagine that you are an ice-cream maker who creates and serves a variety of sundaes to your lovely customers. In this game, you are considered a witch of sweets who has magic hands and can build numerous tasty ice creams using the available ingredients. It sounds fun, right? Don't be afraid to jump into this game to see how well you do your job.",
+      "path": "https://papas-freezeria.io/papas-freezeria.embed",
+      "imgpath": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2291760/capsule_616x353.jpg?t=1700157490",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
     }
 
 
