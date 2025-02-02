@@ -263,7 +263,116 @@
         "imgpath": "images/highway404.png",
         "data_players": "150K players",
         "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "Xx142-b2",
+        "title": "Xx142-b2",
+        "category": "Skill", 
+        "subcategory": "Endless_Runner",
+        "instructions": "Hello, xx142-b2.exe. This is the year 2413, humanity is enslaved by an alien race for more than two centuries already. You are an AI weaponized virus built to infiltrate the alien network and deactivate all power generators and weapon systems. The alien antivirus will detect and delete you after 13 seconds. But remember: a file is never really deleted. Use the execution backtrace from your previous attempts to break in and destroy the main memory core.",
+        "path": "games/Xx142-b2exe/",
+        "imgpath": "images/Xx142-b2.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "retrohaunt",
+        "title": "Retrohaunt",
+        "category": "Strategy", 
+        "subcategory": "Endless Puzzle",
+        "instructions": "Someone or something is stealing our time. Today was yesterday and tomorrow is nowhere to be seen. Detective Clay is on the case!",
+        "path": "games/retrohaunt/",
+        "imgpath": "images/retrohaunt.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "wanderingwraith",
+        "title": "The Wandering Wraith",
+        "category": "Skill", 
+        "subcategory": "Platformer",
+        "instructions": "A lost wraith is wandering through the world seeking for peace. Will you guide him back to his grave so he can finally rest?",
+        "path": "games/the-wandering-wraith/",
+        "imgpath": "images/wanderingwraith.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "swagshot",
+        "title": "SWAGSHOT",
+        "category": "Skill", 
+        "subcategory": "FPS",
+        "instructions": "The station on LZ-13 was taken over by its AIs! You must take it back... with style!",
+        "path": "games/swagshot/",
+        "imgpath": "images/swagshot.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "nanowirebot",
+        "title": "Nano-Wirebot",
+        "category": "Skill", 
+        "subcategory": "Platformer",
+        "instructions": "A simple platformer where you play as a nanobot that needs to fix some wires. Use the arrow keys for movement, and the browser back button (or backspace) to go back",
+        "path": "games/nano-wirebot/",
+        "imgpath": "images/nanowirebot.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "playback",
+        "title": "Play Back",
+        "category": "Logic", 
+        "subcategory": "Endless Puzzle",
+        "instructions": "Oh no, you've been kicked out of the castle! Solve puzzles and make your way back to your rightful home. Puzzle-platformer game with an audio mechanic. Robots and platforms will only respond to sounds from tapes of the same color. Platforms with dark arrows on them will remember their position after saving, so you don't need to worry about losing too much progress if you die. Controls (when it says 'hold' make sure you hold down the key) Hold Left/Right Arrows or A/D = Move Left/Right Space or J = Jump Hold Down Arrow or S = Stop Grabbing Up Arrow or W = Climb up (while grabbing) G = Get/Pick up B = Drop (Brop?) I = Insert tape K = Eje(k)t tape Hold P = Play Hold R = Record Hold [ = Rewind Hold ] = Fast Forward T = Throw Enter = Shoot gun (should you find one)",
+        "path": "games/play-back/",
+        "imgpath": "images/playback.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "envisionator",
+        "title": "Envisionator",
+        "category": "Skill", 
+        "subcategory": "Platformer",
+        "instructions": "This is a short puzzle game about escaping a building lockdown with the aid of your trusty robot friend.",
+        "path": "games/envisionator/",
+        "imgpath": "images/envisionator.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "onoff",
+        "title": "ONOFF",
+        "category": "Logic", 
+        "subcategory": "Endless Puzzle",
+        "instructions": "Navigate through 25 brain-teasing levels in this fast-paced, hand-crafted platformer. You'll dodge spikes, jump over pits, and toggle between dimensions.",
+        "path": "games/onoff/",
+        "imgpath": "images/onoff.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "matrix",
+        "title": "The Matr13k",
+        "category": "Skill", 
+        "subcategory": "Adventure",
+        "instructions": "After saving Morpheus, Neo needs to find an exit from this JavaScript version of the matrix. This is a beat em up, your objective is to kill everyone in your way in order to advance to the end of the rabbit hole. Use the arrow keys to move, S and D keys to punch and kick, space to jump, you also have some special moves",
+        "path": "games/the-matr13k/",
+        "imgpath": "images/matrix.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
+      },
+      {
+        "id": "1024",
+        "title": "1024 Moves",
+        "category": "Logic", 
+        "subcategory": "Endless Puzzle",
+        "instructions": "This puzzle can be solved in 1024 movements. That is to say, I think it is not possible to do it in less than 1024 movements.",
+        "path": "games/1024-moves/",
+        "imgpath": "images/1024.png",
+        "data_players": "150K players",
+        "related": ["vex7", "slope", "moto-x3m"]
       }
-      
 
 ]
