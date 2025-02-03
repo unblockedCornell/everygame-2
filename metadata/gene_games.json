@@ -529,7 +529,107 @@
       "imgpath": "https://cdn.now.gg/apps-content/com.nowgg.h5.pub807.app51680/ogimage/papa-s-pizzeria.jpg",
       "data_players": "15K players",
       "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+
+    {
+      "id": "burgeria",
+      "title": "Papas burgeria",
+      "category": "Strategy",
+      "subcategory": "business",
+      "instructions": "Get ready to sizzle and serve in Papa's Burgeria, a fast-paced Papa's Games adventure that puts you in charge of a bustling burger joint! In the town of Burgerburgh, you'll be grilling patties, stacking toppings, and crafting the perfect burgers to satisfy a diverse cast of hungry customers.",
+      "path": "",
+      "subPath": "https://papasgamesfree.io/flipline/papas-burgeria/",
+      "imgpath": "https://m.media-amazon.com/images/I/81h9qVNR3VL.jpg",
+      "data_players": "15K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "wingeria",
+      "title": "Papas wingeria",
+      "category": "Strategy",
+      "subcategory": "business",
+      "instructions": "Prepare for a finger-lickin' good time in Papa's Wingeria, a Papa's Games adventure where you're in charge of a bustling chicken wing restaurant! Located in the lively town of Starlight City, you'll be frying up crispy wings, tossing them in flavorful sauces, and serving up delicious sides to satisfy your wing-loving customers.",
+      "path": "",
+      "subPath": "https://papasgamesfree.io/flipline/papas-wingeria/",
+      "imgpath": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=1200,height=1200,fit=cover,f=png/0ef4d3c4bd35cc2e9b65f3da07448fc2.jfif",
+      "data_players": "15K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+
+    {
+      "id": "sushiria",
+      "title": "Papas sushiria",
+      "category": "Strategy",
+      "subcategory": "business",
+      "instructions": "Get ready to embark on a culinary journey to the world of sushi in Papa's Sushiria, a Papa's Games adventure that puts you in charge of a vibrant sushi restaurant! Located in the bustling Sakura Bay, you'll be slicing fish, spreading rice, rolling sushi, and adding delicious toppings to create the perfect sushi creations.",
+      "path": "",
+      "subPath": "https://papasgamesfree.io/flipline/papas-sushiria/",
+      "imgpath": "https://play-lh.googleusercontent.com/ylg99xaPmVnPHk9L5JXnimBaKVoWxyU9ign2E84mSw5VBiC6i8mtff-0QguB-eGPGNY",
+      "data_players": "15K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "pastaria",
+      "title": "Papas pastaria",
+      "category": "Strategy",
+      "subcategory": "business",
+      "instructions": "Get ready to experience the art of Italian cuisine in Papa's Pastaria, a Papa's Games adventure that puts you in charge of a charming pasta restaurant! In the picturesque town of Portallini, you'll be cooking noodles, preparing savory sauces, and creating delicious pasta dishes to satisfy a variety of customers.",
+      "path": "",
+      "subPath": "https://papasgamesfree.io/flipline/papas-pastaria/",
+      "imgpath": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/b412fa2255f0dd1098b6759f71824cd7.png",
+      "data_players": "15K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "cheeseria",
+      "title": "Papas cheeseria",
+      "category": "Strategy",
+      "subcategory": "business",
+      "instructions": "Get ready to take on the cheesiest challenge yet in Papa's Cheeseria! In this sizzling Papa's Games adventure, you'll be grilling up a storm of mouthwatering grilled cheese sandwiches for the hungry folks of Toastwood.",
+      "path": "",
+      "subPath": "https://papasgamesfree.io/flipline/papas-cheeseria/",
+      "imgpath": "https://m.media-amazon.com/images/I/81P8P34g22L.png",
+      "data_players": "15K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "donuteria",
+      "title": "Papas donuteria",
+      "category": "Strategy",
+      "subcategory": "business",
+      "instructions": "Get ready to experience the sweet satisfaction of running your own donut shop in Papa's Donuteria! Located in the vibrant town of Powder Point, you'll be frying up fresh donuts, creating mouthwatering glazes and toppings, and serving delightful treats to a cast of donut-loving customers.",
+      "path": "",
+      "subPath": "https://papasgamesfree.io/flipline/papas-donuteria/",
+      "imgpath": "https://static.wikia.nocookie.net/fliplinestudios/images/4/47/Papa%27s_Donuteria_To_Go%21.png/revision/latest?cb=20200118004532",
+      "data_players": "15K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "bakeria",
+      "title": "Papas bakeria",
+      "category": "Strategy",
+      "subcategory": "business",
+      "instructions": "Dive back into the delicious world of Papa's Bakeria, now revamped and ready to serve up some serious fun! Thanks to AwayFL, this classic cooking game has been resurrected for a new generation of players to enjoy.",
+      "path": "",
+      "subPath": "https://papasgamesfree.io/flipline/papas-bakeria/",
+      "imgpath": "https://static.wikia.nocookie.net/fliplinestudios/images/5/5d/Papa%27s_Bakeria_To_Go%21.png/revision/latest?cb=20200118004442",
+      "data_players": "15K players",
+      "related": ["vex7", "slope", "moto-x3m"]
     }
+
+
+
+
+    
+
+    
 
 
     
