@@ -333,7 +333,7 @@ p.numgames {
 
 
 #games {
-    padding: 10vw;
+    margin: 0vw 10vw;
     display: flex;
     flex-wrap: wrap;
     gap: 1vw;
