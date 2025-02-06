@@ -95,14 +95,40 @@
   <script>
     document.getElementById('fullscreen-btn').addEventListener('click', () => {
       const iframe = document.getElementById('game-frame');
-      if (iframe.requestFullscreen) {
-        iframe.requestFullscreen();
-      } else if (iframe.webkitRequestFullscreen) { // Safari
-        iframe.webkitRequestFullscreen();
-      } else if (iframe.msRequestFullscreen) { // IE/Edge
-        iframe.msRequestFullscreen();
+      
+      try {
+        const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+        const canvas = iframeDocument.querySelector('canvas');
+
+        if (canvas) {
+          // If a canvas exists, attempt to fullscreen it
+          console.log("has canvas")
+          if (canvas.requestFullscreen) {
+            canvas.requestFullscreen();
+          } else if (canvas.webkitRequestFullscreen) { // Safari
+            canvas.webkitRequestFullscreen();
+          } else if (canvas.msRequestFullscreen) { // IE/Edge
+            canvas.msRequestFullscreen();
+          } else {
+            console.warn("Fullscreen API not supported for canvas.");
+          }
+        } else {
+          // Otherwise, fullscreen the iframe
+          if (iframe.requestFullscreen) {
+            iframe.requestFullscreen();
+          } else if (iframe.webkitRequestFullscreen) { // Safari
+            iframe.webkitRequestFullscreen();
+          } else if (iframe.msRequestFullscreen) { // IE/Edge
+            iframe.msRequestFullscreen();
+          } else {
+            console.warn("Fullscreen API not supported.");
+          }
+        }
+      } catch (error) {
+        console.error("Fullscreen attempt failed:", error);
       }
     });
+
   </script>
 
   <style>
