@@ -622,8 +622,20 @@
       "imgpath": "https://static.wikia.nocookie.net/fliplinestudios/images/5/5d/Papa%27s_Bakeria_To_Go%21.png/revision/latest?cb=20200118004442",
       "data_players": "15K players",
       "related": ["vex7", "slope", "moto-x3m"]
-    }
+    },
 
+    {
+      "id": "gunblood",
+      "title": "Gunblood",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "This town isn’t big enough for the two of us, so draw! If you have ever wanted to be a part of a western duel, then look no further than Gunblood! Choose from one of ten wild west characters and attempt to outshoot your opponents! Nine rounds of intense, reaction based duels await you in this visceral game! After every successful duel, you are met with another, more challenging opponent and your odds of survival greatly decrease! Can you win every duel and prove that you are the best shot in town?",
+      "path": "",
+      "subPath": "https://games.crazygames.com/en_US/gunblood/index.html?v=1.324",
+      "imgpath": "https://play-lh.googleusercontent.com/74HrzSgWFO3JIIIg2kbKafeETZW7gkh2PGeC4fRAYICNg29X3uelbr6OzR080GI-AhK-",
+      "data_players": "15K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    }
 
 
 
