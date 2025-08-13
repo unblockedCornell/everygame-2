@@ -1,21 +1,25 @@
-# BLAZERGAMES
+# EveryGame66  
+**Unblocked Online Gaming Platform**  
+A web-based hub for playing classic and modern games unblocked, designed for accessibility, student use, and fallback access.
 
-*Subscribe to Blazer!!!*
-https://youtube.com/c/blazerhm
+![EveryGame66 Banner](EveryGameIcon.png)
 
-## Deployment
-Here are some other deployment options to deploy the site on your own.
+---
 
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/beforeblazergithub/BlazerGames)
-<br>
-[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/beforeblazergithub/BlazerGames)
-<br>
-[![Deploy to IBM Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/ibmcloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/beforeblazergithub/BlazerGames)
-<br>
-[![Deploy to Amplify Console](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/beforeblazergithub/BlazerGames)
-<br>
-[![Run on Google Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/beforeblazergithub/BlazerGames)
-<br>
-[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/beforeblazergithub/BlazerGames)
-<br>
-[![Deploy To Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/beforeblazergithub/BlazerGames)
+## Overview  
+[EveryGame66.com](https://everygame66.com) is a curated web platform offering a wide range of games that remain accessible even in restricted network environments such as schools and institutions.  
+It provides a seamless, user friendly interface to discover and play games without firewalls interrupting the fun.
+
+---
+
+## Features  
+- **Extensive Game Library** – Support for numerous titles, organized into categories for easy browsing.  
+- **Minimal Dependencies** – Lightweight HTML, CSS, and JavaScript front end ensures fast loading and compatibility.  
+- **Self-Hosted & Deployable** – Easily deployable via GitHub Pages, Replit, or private servers.  
+- **Simple Navigation** – Clear UI with category navigation and login/signup support via custom scripts.
+
+---
+
+## Tech Stack  
+- **Frontend:** HTML, CSS, Vanilla JavaScript  
+- **Backend Files & Listing:** WIP -- Hosted via static pages and JSON metadata
